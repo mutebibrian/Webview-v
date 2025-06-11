@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_inbox"
+        android:name="com.manstercode.webview.AllinboxFragment"
+        android:label="fragment_allinbox"
+        tools:layout="@layout/fragment_allinbox" />
+    <fragment
+        android:id="@+id/nav_primary"
+        android:name="com.manstercode.webview.Primary"
+        android:label="fragment_primary"
+        tools:layout="@layout/fragment_primary" />
+    <fragment
+        android:id="@+id/nav_promotions"
+        android:name="com.manstercode.webview.PromotionsFragment"
+        android:label="fragment_promotions"
+        tools:layout="@layout/fragment_promotions" />
+    <fragment
+        android:id="@+id/nav_social"
+        android:name="com.manstercode.webview.SocialFragment"
+        android:label="fragment_social"
+        tools:layout="@layout/fragment_social" />
+    <fragment
+        android:id="@+id/nav_updates"
+        android:name="com.manstercode.webview.UpdatesFragment"
+        android:label="fragment_updates"
+        tools:layout="@layout/fragment_updates" />
+</navigation>
